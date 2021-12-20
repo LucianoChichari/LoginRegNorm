@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Handcrafted Cotton Bike",
+    "price": "52.00",
+    "thumbnail": "http://placeimg.com/640/480/people"
+  },
+  {
+    "name": "Licensed Rubber Chair",
+    "price": "312.00",
+    "thumbnail": "http://placeimg.com/640/480/transport"
+  },
+  {
+    "name": "Sleek Wooden Bike",
+    "price": "794.00",
+    "thumbnail": "http://placeimg.com/640/480/city"
+  },
+  {
+    "name": "Tasty Granite Soap",
+    "price": "203.00",
+    "thumbnail": "http://placeimg.com/640/480/abstract"
+  },
+  {
+    "name": "Ergonomic Metal Ball",
+    "price": "303.00",
+    "thumbnail": "http://placeimg.com/640/480/transport"
+  }
+]

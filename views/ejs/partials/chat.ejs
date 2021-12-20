@@ -1,0 +1,31 @@
+
+
+    <style>
+        #app_chat.active .michat, #app_chat>div:first-of-type{
+            display: block;
+        }
+        #app_chat.active>div:first-of-type, #app_chat .michat{
+            display: none;
+        }
+    </style>
+    <div class="container">
+        <div id="app_chat" class="">
+            <div>
+                <form id="form_data_user">
+                    <div>
+                        <input id="email_user" type="text" placeholder="Ingresa tu correo">
+                        <input  type="submit" value="Ingresar al chat">
+                    </div>
+                </form>
+            </div>
+            <div class="michat">
+                <div>
+                    <input id="inputtext" type="text" placeholder="Escribe aquí tu texto">
+                    <button id="mibtn">Enviar</button>
+                    <p style="background-color: #e3e2e2;
+                        padding: 20px 30px;
+                        width: 100%;
+                        max-width: 500px;" id="contenedor"></p>
+            </div>
+        </div>
+    </div>

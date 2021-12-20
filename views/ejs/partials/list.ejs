@@ -1,0 +1,28 @@
+<h2>Lista de productos</h2>
+
+<% if(response.length > 0) {%>
+
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Price</th>
+            <th scope="col">Thumbnail</th>
+          </tr>
+        </thead>
+        <tbody>
+            <% for (let products of response) { %>
+                <tr>
+                  <th scope="row"><%= products.id %> </th>
+                  <td><%= products.name %></td>
+                  <td><%= products.price %></td>
+                  <td><%= products.thumbnail %></td>
+              </tr>
+            <% } %>  
+        </tbody>
+      </table>
+
+<% } else { %>
+    <span class="badge bg-danger">No hay productos</span>
+    <% } %>
